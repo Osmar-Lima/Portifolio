@@ -1,11 +1,11 @@
-## portifolio
+# portifolio
 Portfólio do desenvolvedor
-## Tarefas
+# Tarefas
 O controle das tarefas desese projeto será realizado no GitHug
 
-## Ícones
+# Ícones
 
-:package: nova funcionalidade
-:up: atualização
-:beetle: correção de bug
-:checkered_flag: release
+- :package: nova funcionalidade
+- :up: atualização
+- :beetle: correção de bug
+- :checkered_flag: release
