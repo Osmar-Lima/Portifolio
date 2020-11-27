@@ -45,6 +45,7 @@ html{
     justify-content: space-evenly;
     cursor: pointer;
     transition: all 1s;
+    
 }
 
 .show-menu .hamburger {
@@ -58,6 +59,7 @@ html{
     background-color: #fff;
     box-shadow: 0.1rem 0.1rem 1px #000;
     transition: all 1s;
+   
 }
 
 
@@ -216,7 +218,7 @@ header {
     top: 0;
     right: -20rem;
     transition: all 1s;
-    z-index: 150;
+    z-index: 90;
 }
 
 .show-menu .sidebar {
@@ -630,9 +632,9 @@ header {
 }
 
 .sessao-orcamento label{
-    font-family: var(--font-secundary);
+    font-family: var(--font-primary);
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: lighter;
 }
 
 .sessao-orcamento input[type="number"]{
@@ -647,7 +649,6 @@ header {
 }
 
 .btn-orcamento {
-
     font-size: 1.2rem;
     text-transform: uppercase;
     height: 2.5rem;
@@ -686,12 +687,13 @@ footer{
 .footer-content p{
    font-family: var(--font-secundary);
    color: #a7a7a7;
-   font-size: 1.2rem;
+   font-size: 1.5rem;
 }
 
 .social-list a{
     margin: 0 2rem;
     color: #a7a7a7;
+    font-size: 2rem;
 
 }
 .social-list ul {
@@ -700,8 +702,8 @@ footer{
 
 #link-topo{
     position: fixed;
-    right: 3rem;
-    bottom: 3rem;
+    right: 2rem;
+    bottom: 5rem;
     width: 3rem;
     height: 3rem;
     background: #8E2DE2;
@@ -713,5 +715,6 @@ footer{
     color: #fff ;
     border-radius: .3rem;
     box-shadow: 0 0 .1rem 0.6rem #00000009;
+    z-index: 90;
 
 }
