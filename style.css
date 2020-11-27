@@ -520,27 +520,24 @@ header {
     position: relative;
 }
 
-
 .field {
     background-color: transparent;
     border: none;
     width: 20rem;
-    height: 3rem;
+    height: 2.5rem;
     font-size: 1.5rem;
     font-family: var(--font-secundary);
     border-bottom: 2px dashed #636363;
     outline: none;
     margin: 1rem 0;
-   
+
 }
 
 .input-group textarea{
-    padding-top: 4rem;
+    padding-bottom: 4rem ;
     resize: none;
-
-    
+ 
 }
-
 
 .field-label {
     position: absolute;
@@ -576,15 +573,15 @@ header {
   }
 
 
-  .btn-submit:hover {
+.btn-submit:hover {
     opacity: 0.8;
     /* deixa o btn mais opaco */
     color: black;
     /* mudando a cor da letra*/
 }
-.preenchimento{
+/* .preenchimento{
     pointer-events: none;
-}
+} */
 
 .sessao-orcamento{
     width: 100%;
