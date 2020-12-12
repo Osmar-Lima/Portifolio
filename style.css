@@ -640,8 +640,9 @@ header {
     font-size: 2rem;
     outline: none;
     border-radius: 10px;
-    border: none;
+    /* border: none; */
     padding: 0.3rem;
+    border: 2px solid #ccc;
 
 }
 
@@ -715,3 +716,120 @@ footer{
     z-index: 90;
 
 }
+@media screen and (max-width:1070px){
+    .conhecimento-header h3{
+        font-size: 24px;
+    }
+    
+    .conhecimento-text p {
+        font-size: 15px;
+    }
+    .conhecimentos i{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:936px){
+    .conhecimento-header h3{
+        font-size: 18px;
+    }
+    
+    .conhecimento-text p {
+        font-size: 14px;
+    }
+    .conhecimentos i{
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (max-width:888px){
+    .conhecimento-header h3{
+        font-size: 18px;
+    }
+    
+    .conhecimento-text p {
+        font-size: 14px;
+    }
+    .conhecimentos i{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:850px){
+    .conhecimento-header h3{
+        font-size: 16px;
+    }
+    
+    .conhecimento-text p {
+        font-size: 14px;
+    }
+    .conhecimentos i{
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .conhecimentos{
+        display: inline-block;
+    }
+    .conhecimento-header{
+        margin-bottom: -10px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+   
+    .conhecimento-text p{
+        margin-left: 15px;
+    }
+
+    .conhecimentos i{
+        margin-left: 15px;
+    }
+    .conhecimentos-img-wrapper img{
+       display: none;
+    }
+
+   
+    .contato-wrapper{
+        width: 100%;
+
+    }
+    .contato-right{
+        width: 100%;
+    }
+    .contato-left{
+        width: 0%;
+    }
+    .sessao-orcamento form{
+        /* display: inline-block; */
+        width: 100%;
+        
+    }
+
+    .sessao-orcamento input[type="number"]{
+        font-family: var(--font-secundary);
+        width: 4rem;
+        font-size: 2rem;
+        outline: none;
+        border-radius: 10px;
+        border: 2px solid #ccc;
+        padding: 0.3rem;
+
+    }
+    .orcamento-wrapper{
+        width: 100%;
+    }
+    .sessao-orcamento h1{
+        font-size: 30px;
+    }
+    .sessao-orcamento form label{
+        font-size: 12px;
+    }
+}
+
+
+
+
+
